@@ -18,14 +18,14 @@ public class Paketprogramm {
 		l = sc.nextDouble();
 		
 		if (l<=0){
-			System.out.println("Fehler.");
+			System.out.println("Fehler!");
 		}
 		else{
 			System.out.print("Geben Sie die Breite ein: ");
 			b = sc.nextDouble();
 			
 			if (b<=0) {
-				System.out.println("Fehler.");
+				System.out.println("Fehler!");
 			}
 			else{
 				System.out.print("Geben Sie die Hoehe ein: ");
@@ -33,7 +33,7 @@ public class Paketprogramm {
 				System.out.println(" ");
 				
 				if (h<=0) {
-					System.out.println("Fehler.");
+					System.out.println("Fehler!");
 				}
 				else{
 					v = getVolumen(l, b, h);
